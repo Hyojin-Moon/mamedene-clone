@@ -2,13 +2,13 @@ import { useEffect } from "react";
 import { useAuthStore } from "../../store/authStore";
 import { useRouter } from "next/router";
 
-const MyPage = () => {
+const ReservationsPage = () => {
   const { user } = useAuthStore();
   const router = useRouter();
 
   useEffect(() => {
     if (!user) {
-      router.replace("/auth/login?redirect=/user");
+      router.replace("/auth/login?redirect=/reservations");
     }
   }, [user, router]);
 
@@ -16,9 +16,9 @@ const MyPage = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-white">
-      마이페이지
+      예약
     </div>
   );
 };
 
-export default MyPage;
+export default ReservationsPage;

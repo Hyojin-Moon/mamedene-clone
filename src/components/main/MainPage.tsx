@@ -28,7 +28,7 @@ const MainPage = () => {
 
         {/* 쿠폰 슬릭 메뉴 (추후 추가) */}
         <div className="mt-4 flex items-center justify-center rounded-md">
-          <img src="/coupon1.png" alt="쿠폰1" />
+          <img src="/image/coupon1.png" alt="쿠폰1" />
         </div>
 
         {/* 쿠폰 카테고리 */}

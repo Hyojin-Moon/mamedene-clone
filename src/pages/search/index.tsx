@@ -9,7 +9,7 @@ const SearchPage = () => {
         <div className="relative w-full">
           <input
             type="text"
-            placeholder="메뉴를 검색해보세요."
+            placeholder="메뉴를 검색해보세요"
             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none"
           />
         </div>
